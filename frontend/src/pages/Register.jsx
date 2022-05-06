@@ -1,4 +1,5 @@
 import {useState, useEffect} from 'react'
+import {useSelector, useDispatch} from 'react-redux'
 import {faUser} from 'react-icons/fa'
 
 function Register() {
